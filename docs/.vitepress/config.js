@@ -19,6 +19,7 @@ export default defineConfig({
           { text: '概述', link: '/api/' },
           { text: '身份认证', link: '/api/authentication' },
           { text: '发起消费请求', link: '/api/request-trade' },
+          { text: '用户授权码', link: '/api/authcode' },
           { text: '支付回调通知', link: '/api/callback' },
           { text: '错误码说明', link: '/api/error-codes' },
           { text: '注意事项', link: '/api/notes' }
