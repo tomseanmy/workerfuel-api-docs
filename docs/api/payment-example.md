@@ -123,7 +123,7 @@ curl -X POST https://your-domain.com/trade/request \
 
 ### 3. 生成支付页面
 
-商户需要将响应中的 [id](file:///Users/tomsean/projects/zhile/workerfuel/workerfuel-api/src/main/kotlin/com/zl/wkf/model/resp/CallbackResp.kt#L8-L8) 字段值填入H5支付页面中，生成用户访问的支付页面。
+商户需要将响应中的 [id] 字段值填入H5支付页面中，生成用户访问的支付页面。
 
 ### 4. 用户支付
 
@@ -131,7 +131,7 @@ curl -X POST https://your-domain.com/trade/request \
 
 ### 5. 接收回调
 
-支付完成后，系统会向商户在请求中指定的 [callback](file:///Users/tomsean/projects/zhile/workerfuel/workerfuel-api/src/main/kotlin/com/zl/wkf/model/PrepaidRequest.kt#L19-L19) 地址发送支付结果通知：
+支付完成后，系统会向商户在请求中指定的 [callback] 地址发送支付结果通知：
 
 ```json
 {
