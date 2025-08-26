@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as r,af as e}from"./chunks/framework.Cm3tdt7z.js";const g=JSON.parse('{"title":"注意事项","description":"","frontmatter":{},"headers":[],"relativePath":"api/notes.md","filePath":"api/notes.md"}'),o={name:"api/notes.md"};function t(n,l,s,p,h,d){return r(),a("div",null,[...l[0]||(l[0]=[e("",16)])])}const u=i(o,[["render",t]]);export{g as __pageData,u as default};
