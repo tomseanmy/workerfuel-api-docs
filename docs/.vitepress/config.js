@@ -4,7 +4,7 @@ export default defineConfig({
   title: '工作燃料商户对接文档',
   description: '工作燃料系统第三方商户对接API文档',
   
-  base: '/',
+  base: '/workerfuel-api-docs',
   
   themeConfig: {
     nav: [
