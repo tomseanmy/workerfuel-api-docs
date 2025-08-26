@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as i,af as t}from"./chunks/framework.Cm3tdt7z.js";const _=JSON.parse('{"title":"工作燃料商户对接文档","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),l={name:"index.md"};function n(o,a,d,s,h,p){return i(),r("div",null,[...a[0]||(a[0]=[t("",12)])])}const f=e(l,[["render",n]]);export{_ as __pageData,f as default};
