@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
-export default defineConfig({
+export default withMermaid({
   title: '工作燃料商户对接文档',
   description: '工作燃料系统第三方商户对接API文档',
   
@@ -21,6 +21,7 @@ export default defineConfig({
           { text: '发起消费请求', link: '/api/request-trade' },
           { text: '用户授权码', link: '/api/authcode' },
           { text: '支付回调通知', link: '/api/callback' },
+          { text: '支付流程示例', link: '/api/payment-example' },
           { text: '错误码说明', link: '/api/error-codes' },
           { text: '注意事项', link: '/api/notes' }
         ]
