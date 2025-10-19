@@ -19,6 +19,7 @@ export default withMermaid({
           { text: '概述', link: '/api/' },
           { text: '身份认证', link: '/api/authentication' },
           { text: '发起消费请求', link: '/api/request-trade' },
+          { text: '商家手动退款', link: '/api/merchant-refund' },
           { text: '用户授权码', link: '/api/authcode' },
           { text: '支付回调通知', link: '/api/callback' },
           { text: '支付流程示例', link: '/api/payment-example' },
