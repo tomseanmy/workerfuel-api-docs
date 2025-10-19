@@ -46,3 +46,9 @@ Authorization: Bearer {token}
 ## 错误处理
 
 当接口调用失败时，会返回相应的错误码和错误信息，请参考[错误码说明](./error-codes.md)章节进行处理。
+
+## 常用接口
+
+- [发起消费请求](./request-trade.md)
+- [商家手动退款](./merchant-refund.md)
+- [支付回调通知](./callback.md)
