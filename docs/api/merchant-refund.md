@@ -25,17 +25,18 @@ Content-Type: application/json
 
 | 字段名 | 类型 | 必填 | 说明 |
 | --- | --- | --- | --- |
-| tradeId | long | 否* | 交易记录ID（与requestId二选一） |
-| requestId | long | 否* | 预支付请求ID（与tradeId二选一） |
+| tradeId | long | 否* | 交易记录ID（三选一） |
+| requestId | long | 否* | 预支付请求ID（三选一） |
+| billId | string | 否* | 业务订单号（三选一） |
 | refundAmount | long | 是 | 本次退款金额（单位: 分），所有退款累计金额不得超过原交易金额 |
 
-> 至少需要提供 `tradeId` 或 `requestId` 中的一个字段。
+> 至少需要提供 `tradeId`、`requestId` 或 `billId` 中的一个字段。
 
 ### 请求示例
 
 ```json
 {
-  "tradeId": 1405452730637488143,
+  "billId": "20230405001",
   "refundAmount": 500
 }
 ```
